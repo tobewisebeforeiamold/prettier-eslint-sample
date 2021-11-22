@@ -5,16 +5,7 @@ require( 'dotenv' ).config(
 );
 
 const envFileMaps = {
-	'process.env.API_URL': process.env.API_URL,
-	'process.env.STRIPE_PUB_KEY': process.env.STRIPE_PUB_KEY,
-	'process.env.NODE_ENV': process.env.NODE_ENV,
-	'process.env.PLAID_ENV': process.env.PLAID_ENV,
-	'process.env.SENTRY_DSN': process.env.SENTRY_DSN,
-	'process.env.SENTRY_ENV': process.env.SENTRY_ENV,
-	'process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID':process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID,
-	'process.env.NEXT_PUBLIC_GOOGLE_PROJECT_ID': process.env.NEXT_PUBLIC_GOOGLE_PROJECT_ID,
-	'process.env.NEXT_PUBLIC_GOOGLE_CLIENT_SECRET': process.env.NEXT_PUBLIC_GOOGLE_CLIENT_SECRET,
-	'process.env.NEXT_PUBLIC_GOOGLE_API_KEY': process.env.NEXT_PUBLIC_GOOGLE_API_KEY,
+	'process.env.NODE_ENV': process.env.NODE_ENV
 }
 
 module.exports = {
