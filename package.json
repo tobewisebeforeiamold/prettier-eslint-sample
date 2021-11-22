@@ -1,0 +1,32 @@
+{
+	"name": "rpc-frontend",
+	"version": "2.12.0",
+	"private": false,
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint index.js",
+		"prettier": "prettier --ignore-path=.eslintignore --check index.js",
+		"check": "prettier-eslint --eslint-ignore=.eslintignore --prettier-ignore=.eslintignore --list-different index.js",
+		"fix": "prettier-eslint --eslint-ignore=.eslintignore --prettier-ignore=.eslintignore --write index.js"
+	},
+	"devDependencies": {
+		"@babel/eslint-parser": "^7.15.4",
+		"babel-loader": "^8.1.0",
+		"eslint": "7.32.0",
+		"eslint-loader": "^2.2.1",
+		"eslint-plugin-cypress": "^2.10.3",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-react": "^7.16.0",
+		"prettier": "^2.4.1",
+		"prettier-eslint": "^13.0.0",
+		"prettier-eslint-cli": "^5.0.1"
+	},
+	"dependencies": {
+		"@babel/core": "^7.11.0",
+		"@babel/plugin-proposal-optional-chaining": "^7.7.5",
+		"babel-plugin-styled-components": "^1.10.6",
+		"babel-plugin-transform-define": "^1.3.2",
+		"dotenv": "^6.2.0",
+		"next": "^9.3.5"
+	}
+}
